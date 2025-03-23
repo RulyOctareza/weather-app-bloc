@@ -29,6 +29,8 @@ class MyApp extends StatelessWidget {
                         ..add(FetchWeather(snap.data as Position)),
               child: HomeScreen(),
             );
+          } else if (snap.hasError) {
+            return Scaffold(body: Center(child: Text('Error: ${snap.error}')));
           } else {
             return Scaffold(body: Center(child: CircularProgressIndicator()));
           }

@@ -115,18 +115,20 @@ class _HomeScreenState extends State<HomeScreen> {
                           Text(
                             '📍 ${state.weather.areaName}',
                             style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.w300,
-                            ),
-                          ),
-                          SizedBox(height: 8),
-                          Text(
-                            '${state.weather.country}',
-                            style: TextStyle(
+                              fontSize: 35,
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
+                          SizedBox(height: 8),
+                          // Text(
+                          //   '${state.weather.country}',
+                          //   style: TextStyle(
+                          //     color: Colors.white,
+                          //     fontSize: 35,
+                          //     fontWeight: FontWeight.bold,
+                          //   ),
+                          // ),
                           getWeatherIcon(state.weather.weatherConditionCode!),
                           // Image.asset('assets/2.png'),
                           Center(
