@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/preview/hero.png" alt="Weather App BLoC — ilustrasi aplikasi cuaca" width="100%">
+  <img src="docs/preview/hero.svg" alt="Weather App BLoC — ilustrasi aplikasi cuaca" width="100%">
 </p>
 
 <h1 align="center">Weather App — BLoC</h1>
